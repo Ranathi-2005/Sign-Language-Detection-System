@@ -13,7 +13,7 @@ app = Flask(__name__)
 model = load_model('sign_language_cnn_model.h5')
 
 # Labels for sign language prediction
-labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y"]
+labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y","Z"]
 
 # Initialize MediaPipe for hand detection
 mp_hands = mp.solutions.hands
